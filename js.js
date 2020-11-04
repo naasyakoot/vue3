@@ -8,7 +8,8 @@ var data = function data() {
 				name: "SALAMOON ALAIKOOM",
 				name2: "SALAMOON SALAMOON",
 				name3: "h1 text-warning",
-				list: ['ananas','date','anaba','mango']
+				list: ['ananas','date','anaba','mango'],
+				list2:[{'cake':'vanila'}]
 			};
 
 
@@ -16,4 +17,4 @@ var data = function data() {
 
 var sets = { data };
 
-	Vue.createApp(sets).mount('#test2');
+	Vue.createApp(sets).mount('#maindiv');
