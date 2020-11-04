@@ -7,7 +7,8 @@ var data = function data() {
 
 				name: "SALAMOON ALAIKOOM",
 				name2: "SALAMOON SALAMOON",
-				name3: "h1 text-warning"
+				name3: "h1 text-warning",
+				list: ['ananas','date','anaba','mango']
 			};
 
 
