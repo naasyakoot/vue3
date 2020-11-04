@@ -11,18 +11,30 @@
 
 </head>
 <body>
+<div class="container">
+	
+	<div class="row">
 
 	<div id="test1" class="h1 text-info">
 		test1
 	</div>
 
+	</div>
 
+
+	<div class="row">
+		
+	
 	<div id="test2">
 		<span :class="name3"> {{ name }} </span>
 		<br>
 		<span class="h1">List</span>
 		<br>
-		<div v-for="things in list" v-text="list"></div>
+		<div v-for="things in list" v-text="things"></div>
+	</div>
+
+	</div>
+
 	</div>
 	
 
