@@ -61,6 +61,8 @@ var data = function data() {
 
 				deepwhiterose: 'background-color: #c1167d;border: none',
 
+				lightstoneblue: 'background-color: #16b9c1;border: none',
+
 				logs: true,
 
 				keyname: 'key',
