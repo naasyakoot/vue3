@@ -30,6 +30,10 @@
 		<br>
 		<span class="h1">List</span>
 		<br>
+		<div id="test6">
+			
+		</div>
+		<br>
 		<div v-for="things in list" v-text="things"></div>
 		<div v-for:="things in list2" :="things">{{ things.cake }}</div>
 		<br>
@@ -37,9 +41,10 @@
 		<br>
 		<div id="test4" v-if="thisistrue"> {{ name }} </div>
 		<br>
-		<nav id="test5" class="mark" :style="limegreen">
-			<a v-for:="num in 10"> {{ num }} </a>
+		<nav id="test5" class="mark h1" :style="whiterose">
+			<a v-for:="num in 10" :style="limegreen"> {{ num }} </a>
 		</nav>
+
 	</div>
 
 	</div>
