@@ -1,5 +1,8 @@
 var test1id = document.getElementById("test1");
+
 test1id.innerHTML = "Vue.version: " + Vue.version;
+
+var list = ['ananas','date','anaba','mango'];
 
 var nesttest = function nesttest() {
 
@@ -10,12 +13,15 @@ var someaction = function someaction() {
 
 	methods: {
 
-	     nesttest();
+	     console.log(list.push('some'));
 	     
 	};
 };
 
 var data = function data() {
+
+
+
 
 
 			return {
@@ -26,7 +32,7 @@ var data = function data() {
 
 				name3: "h1 text-warning",
 
-				list: ['ananas','date','anaba','mango'],
+				list,
 
 				list2: [{'cake':'vanila'}],
 
@@ -72,6 +78,6 @@ var data = function data() {
 
 		};
 
-var sets = { data };
+var sets = { data, someaction };
 
 	Vue.createApp(sets).mount('#maindiv');
