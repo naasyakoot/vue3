@@ -71,16 +71,18 @@ var data = function data() {
 
 				someaction,
 
-				list4: [{
+				textval: 'some',
 
-					name: 'ananas',
-					name: 'date',
-					name: 'anaba',
-					name: 'mango'
+				list4: [
 
-				}],
+					{ name: 'ananas' } ,
+					{ name: 'date' },
+					{ name: 'anaba' },
+					{ name: 'mango' }
 
-				textval: 'some'
+				],
+
+				
 
 					
 				

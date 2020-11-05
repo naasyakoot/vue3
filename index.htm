@@ -48,10 +48,10 @@
 		<br>
 		
 		</div>
-		<div v-for=" (somethings , index ) in list4" :key="index">{{ list }}</div>
+		<div v-for="somethings in list4">{{ somethings }}</div>
 		<br>
 		<input type="text" :value="textval">
-		<div  @click="list4.push({})" :class="box" :style="whiteroselight">
+		<div  @click="list4.push()" :class="box" :style="whiteroselight">
 			
 			{{ keyname }}
 		</div>
