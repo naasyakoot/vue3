@@ -35,6 +35,9 @@
 		</div>
 		<br>
 		<div v-for="things in list" v-text="things"></div>
+		<div class="btn btn-primary" :style="deepwhiterose">
+			key
+		</div>
 		<div v-for:="things in list2" :="things">{{ things.cake }}</div>
 		<br>
 		<div id="test3" v-for:="things in list3"> {{ things.cake }} </div>
