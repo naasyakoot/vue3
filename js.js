@@ -12,7 +12,11 @@ var data = function data() {
 				list2:[{'cake':'vanila'}],
 				list3: [{
 
-					'cake':['chocolate']
+					'cake':[
+					'chocolate',
+					'ananas',
+					'strawbery'
+					]
 				}]
 			};
 
