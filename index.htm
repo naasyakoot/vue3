@@ -34,6 +34,12 @@
 		<div v-for:="things in list2" :="things">{{ things.cake }}</div>
 		<br>
 		<div id="test3" v-for:="things in list3"> {{ things.cake }} </div>
+		<br>
+		<div id="test4" v-if="thisistrue"> {{ name }} </div>
+		<br>
+		<div id="test5" class="mark" :style="limegreen">
+			<div v-for:="num in 100"> {{ num }} </div>
+		</div>
 	</div>
 
 	</div>

@@ -17,7 +17,10 @@ var data = function data() {
 					'ananas',
 					'strawbery'
 					]
-				}]
+				}],
+
+				thisistrue: true,
+				limegreen: 'background-color: limegreen'
 			};
 
 
