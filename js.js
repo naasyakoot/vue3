@@ -1,7 +1,17 @@
 var test1id = document.getElementById("test1");
 test1id.innerHTML = "Vue.version: " + Vue.version;
 
+
+var someaction = function someaction() {
+
+	methods: {
+
+		alert('some');
+	}
+}
+
 var data = function data() {
+
 
 			return {
 
@@ -31,8 +41,9 @@ var data = function data() {
 
 				logs: true,
 				'keyname': 'key',
-				
-				'box': 'btn btn-primary'
+
+				'box': 'btn btn-primary',
+				someaction
 
 					
 				
