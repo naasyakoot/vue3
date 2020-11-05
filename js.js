@@ -78,6 +78,6 @@ var data = function data() {
 
 		};
 
-var sets = { data, someaction };
+var sets = { data };
 
 	Vue.createApp(sets).mount('#maindiv');
