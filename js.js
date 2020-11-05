@@ -9,7 +9,11 @@ var data = function data() {
 				name2: "SALAMOON SALAMOON",
 				name3: "h1 text-warning",
 				list: ['ananas','date','anaba','mango'],
-				list2:[{'cake':'vanila'}]
+				list2:[{'cake':'vanila'}],
+				list3: [{
+
+					'cake':['chocolate']
+				}]
 			};
 
 
