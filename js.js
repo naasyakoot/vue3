@@ -1,5 +1,5 @@
-var test1id = document.getElementById("test1");
-test1id.innerHTML = "Vue.version: " + Vue.version;
+var test1id = document.getElementById("test1")
+test1id.innerHTML = "Vue.version: " + Vue.version
 
 var nesttest = function nesttest() {
 
@@ -61,4 +61,4 @@ var data = function data() {
 
 var sets = { data }
 
-	Vue.createApp(sets).mount('#maindiv');
+	Vue.createApp(sets).mount('#maindiv')
