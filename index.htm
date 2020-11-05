@@ -48,8 +48,8 @@
 		</div>
 		<br>
 		
-		<div @click="list.push(text)"  :class="box" :style="whiteroselight">
-			<input :type="text">
+		<div @keyup="list.push(textval)" :class="box" :style="whiteroselight">
+			<input :type="textval">
 			{{ keyname }}
 		</div>
 		<br>

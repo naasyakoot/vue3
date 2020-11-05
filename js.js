@@ -70,7 +70,8 @@ var data = function data() {
 				box: 'btn btn-primary',
 
 				someaction,
-				text: ''
+				
+				textval : 'somedata'
 
 					
 				
