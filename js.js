@@ -69,7 +69,8 @@ var data = function data() {
 
 				box: 'btn btn-primary',
 
-				someaction
+				someaction,
+				text: ''
 
 					
 				

@@ -47,9 +47,13 @@
 		<div v-for="things in list" v-text="things"></div>
 		</div>
 		<br>
-		<div @click="list.push('some')"  :class="box" :style="whiteroselight">
+		
+		<div @click="list.push(text)"  :class="box" :style="whiteroselight">
+			<input :type="text">
 			{{ keyname }}
 		</div>
+		<br>
+
 		<div v-for:="things in list2" :="things">{{ things.cake }}</div>
 		<br>
 		<div id="test3" v-for:="things in list3"> {{ things.cake }} </div>
