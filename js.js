@@ -21,7 +21,7 @@ var data = function data() {
 
 				thisistrue: true,
 				limegreen: 'color: #1defc3',
-				whiterose: 'background-color: #fce3f2'
+				'whiterose': 'background-color: #fce3f2'
 			};
 
 
