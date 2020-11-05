@@ -2,7 +2,7 @@ var test1id = document.getElementById("test1");
 
 test1id.innerHTML = "Vue.version: " + Vue.version;
 
-var list = ['ananas','date','anaba','mango'];
+
 
 var nesttest = function nesttest() {
 
@@ -13,7 +13,7 @@ var someaction = function someaction() {
 
 	methods: {
 
-	     alert('works');
+	     console.log('');
 	     
 	};
 };
@@ -32,7 +32,7 @@ var data = function data() {
 
 				name3: "h1 text-warning",
 
-				list,
+				list : ['ananas','date','anaba','mango'],
 
 				list2: [{'cake':'vanila'}],
 
