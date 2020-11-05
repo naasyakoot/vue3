@@ -43,9 +43,12 @@
 			
 		</div>
 		<br>
+		<div id="test7" class="mark">
 		<div v-for="things in list" v-text="things"></div>
-		<div @click="someaction"  :class="box" :style="whiteroselight">
-			key
+		</div>
+		<br>
+		<div @click="keyname = 'some'"  :class="box" :style="whiteroselight">
+			{{ keyname }}
 		</div>
 		<div v-for:="things in list2" :="things">{{ things.cake }}</div>
 		<br>
