@@ -13,7 +13,7 @@ var someaction = function someaction() {
 
 	methods: {
 
-	     console.log(list.push('some'));
+	     alert('works');
 	     
 	};
 };
