@@ -20,11 +20,19 @@ var data = function data() {
 				}],
 
 				thisistrue: true,
+
 				limegreen: 'color: #1defc3',
+
 				'whiterose': 'background-color: #fce3f2',
+
 				'whiteroselight': 'background-color: #ea40a6;border: none',
+
 				'deepwhiterose': 'background-color: #c1167d;border: none',
-				logs: true
+
+				logs: true,
+				'keyname': 'key',
+				
+				'box': 'btn btn-primary'
 
 					
 				
