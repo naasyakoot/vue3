@@ -2,7 +2,7 @@ var test1id = document.getElementById("test1");
 
 test1id.innerHTML = "Vue.version: " + Vue.version;
 
-var textval = 'some';
+
 
 var nesttest = function nesttest() {
 
@@ -71,7 +71,7 @@ var data = function data() {
 
 				someaction,
 				
-				textval
+				textval: 'some'
 
 					
 				

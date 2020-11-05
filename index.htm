@@ -48,7 +48,7 @@
 		</div>
 		<br>
 		<input type="text" :value="textval">
-		<div  @click="list.push(textval)" :class="box" :style="whiteroselight">
+		<div  @click="list.push({textval : 'something'})" :class="box" :style="whiteroselight">
 			
 			{{ keyname }}
 		</div>
