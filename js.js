@@ -70,7 +70,16 @@ var data = function data() {
 				box: 'btn btn-primary',
 
 				someaction,
-				
+
+				list4: [{
+
+					name: 'ananas',
+					name: 'date',
+					name: 'anaba',
+					name: 'mango'
+
+				}],
+
 				textval: 'some'
 
 					
