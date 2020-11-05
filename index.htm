@@ -47,9 +47,9 @@
 		<div v-for="things in list" v-text="things"></div>
 		</div>
 		<br>
-		
-		<div @keyup="list.push(textval)" :class="box" :style="whiteroselight">
-			<input :type="textval">
+		<input type="text" :value="textval">
+		<div  @click="list.push(textval)" :class="box" :style="whiteroselight">
+			
 			{{ keyname }}
 		</div>
 		<br>
