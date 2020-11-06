@@ -85,7 +85,8 @@ var data = function data() {
 
 				],
 
-				text : 'text'
+				text : 'text',
+				type : 'type text'
 
 				
 
