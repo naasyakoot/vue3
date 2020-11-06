@@ -32,7 +32,7 @@ var data = function data() {
 
 				name2: "SALAMOON SALAMOON",
 
-				name3: "h1 text-warning",
+				name3: "h1 text-warning display-1",
 
 				list : ['ananas','date','anaba','mango'],
 

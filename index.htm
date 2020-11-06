@@ -24,7 +24,7 @@
 	
 	<div class="row">
 
-	<div id="test1" class="h1 text-info">
+	<div id="test1" class="display-4 text-info">
 		test1
 	</div>
 
@@ -44,7 +44,7 @@
 		</div>
 		<br>
 		<div id="test7" class="mark">
-		<div v-for="things in list" v-text="things"></div>
+		<div v-for="things in list" class="text-center" v-text="things"></div>
 		<br>
 		
 		</div>
@@ -57,6 +57,7 @@
 	    </div>
 		<br>
 		<input type="text" class="input-group mb-3" v-model="textval">
+
 		<div  @click="list4.push({name : textval})" :class="box" :style="whiteroselight">
 
 
