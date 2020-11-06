@@ -26,6 +26,8 @@ var data = function data() {
 
 			return {
 
+
+
 				name: "SALAMOON ALAIKOOM",
 
 				name2: "SALAMOON SALAMOON",
@@ -71,7 +73,8 @@ var data = function data() {
 
 				someaction,
 
-				textval: 'some',
+				textval: "textval",
+				textval2: "textval2",
 
 				list4: [
 
@@ -81,6 +84,8 @@ var data = function data() {
 					{ name: 'mango' }
 
 				],
+
+				text : 'text'
 
 				
 
